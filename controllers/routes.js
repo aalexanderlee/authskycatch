@@ -27,3 +27,15 @@ router.post("/signup",
     failureRedirect: "/signup"
   })
 );
+
+router.post("/login",
+  passport.authenticate("local-signin", {
+    successRedirect: "/home",
+    failureRedirect: "/login"
+  })
+);
+
+router.get("/home", isLoggedIn, function(req, res) {
+  
+
+});
