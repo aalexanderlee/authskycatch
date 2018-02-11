@@ -36,6 +36,25 @@ router.post("/login",
 );
 
 router.get("/home", isLoggedIn, function(req, res) {
-  
+  var potentialPlans = [];
+  var potential = false;
+  var i = 0;
 
+  var pastPlans = [];
+  var past = false;
+  var j = 0;
+
+  function display() {
+    if (potential && past) {
+      res.render("home", {
+        potential: potentialPlans,
+        past: pastPlans
+      });
+    }
+  };
+
+  // function potentialLoop(arr) {
+  //   console.log("Count: " + i);
+  //   var info = {};
+  // }
 });
