@@ -1,14 +1,14 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
+    "username": "austin",
+    "password": "ucleagu8",
     "database": "lonewolf_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
+    "username": "austin",
+    "password": "ucleagu8", 
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
