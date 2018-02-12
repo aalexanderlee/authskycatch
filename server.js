@@ -5,6 +5,9 @@ var app = express();
 // Establish port use for 3000
 var PORT = process.env.PORT || 3000;
 
+// Require models as db.
+var db = require("./models");
+
 // Require body parser package npm
 var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended:true}));
