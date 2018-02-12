@@ -45,15 +45,6 @@ router.get("/home", isLoggedIn, function(req, res) {
   var j = 0;
 
   function display() {
-    if (potential && past) {
-      res.render("home", {
-        potential: potentialPlans,
-        past: pastPlans
-      });
-    }
-  };
-
-  function display() {
 		if (potential && past) {
 			res.render("home", {
 				potential: potentialPlans,
