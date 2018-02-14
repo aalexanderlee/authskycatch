@@ -15,7 +15,7 @@ Prevalent packages such as Passport, Sequelize, bcrypt, Express and mySQL were u
 
 ## authskycatch Relevant Page Images:
 * This login page for login.handlebars will send user information for authentication and comparison to existing information in the database once submitted:
-! [alt text](./public/assets/images/signin.png)
+![alt text](./public/assets/images/signin.png)
 
 * This sign up page for signup.handlebars will collect new user information and validate the input before sending it to our database for saving, and later authenticating when the user logs out and logs back in using their former credentials:
 ![alt text](./public/assets/images/signup.png)
